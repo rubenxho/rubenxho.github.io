@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <link rel="stylesheet" href="reloj.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+</head>
+<body>
+    <section class="container" id="container">
+        
+        <h1 class="title">¿What time is it?</h1>
+
+        <div class="theme_container">
+
+            <input type="checkbox" class="theme_checkbox" id="checkbox">
+            <label for="checkbox" class="theme_label">
+                <i class="fas fa-sun" id="theme_sun"></i>
+                <i class="far fa-moon-stars" id="theme_moon"></i>
+                <div class="theme_ball"></div>
+            </label>
+        </div>
+
+        <div class="reloj_container">
+            <div class="reloj">
+                <div class="reloj_days">
+                    <p class="reloj_title" id="monday">MON</p>
+                    <p class="reloj_title" id="tuesday">TUE</p>
+                    <p class="reloj_title" id="wednesday">WED</p>
+                    <p class="reloj_title" id="thursday">THU</p>
+                    <p class="reloj_title" id="friday">FRI</p>
+                    <p class="reloj_title" id="saturday">SAT</p>
+                    <p class="reloj_title" id="sunday">SUN</p>
+                </div>
+
+                <div class="reloj_options">
+                    <div class="reloj_alarma">
+                        <i class="far fa-alarm-clock"></i>
+                    </div>
+                    <div class="reloj_hour">
+                        <p class="reloj_text" id="hour"></p>
+                        <p class="reloj_point">:</p>
+                        <p class="reloj_text" id="minute"></p>
+                        <p class="reloj_point">:</p>
+                        <p class="reloj_text" id="second"></p>
+                    </div>
+                    <div class="reloj_typeDay">
+                        <i class="far fa-sun" id="sun"></i>
+                        <i class="far fa-moon" id="moon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="reloj.js" charset="utf-8"></script>
+</body>
+</html>
